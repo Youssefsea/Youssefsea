@@ -1,16 +1,31 @@
-## Hi there 👋
+## 👋 Hi, I'm Youssef
 
-<!--
-**Youssefsea/Youssefsea** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Computer Science Student  
+💻 Backend Developer (Node.js / Express / MySQL)  
+🚀 Currently preparing for IT training at GUPCO  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠 Tech Stack
+
+- JavaScript
+- Node.js
+- Express.js
+- MySQL
+- HTML / CSS
+- C++
+- Git & GitHub
+
+---
+
+### 📌 Current Focus
+
+- Building backend APIs with Node.js & Express
+- Working on food delivery backend project
+- Improving database design & performance
+
+---
+
+### 📫 Contact
+
+- GitHub: https://github.com/Youssefsea
