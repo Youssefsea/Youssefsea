@@ -14,9 +14,7 @@
 ## 🚀 عني | About Me
 
 🎯 **Backend Developer** متخصص في بناء APIs قوية و scalable  
-🎓 طالب **Computer Science** شغوف بالتطوير و حل المشكلات  
-💼 بستعد لتدريب **IT في GUPCO**  
-🍕 حالياً بشتغل على **Food Delivery Backend Project**  
+🎓 طالب **Computer Science** شغوف بالتطوير و حل المشكلات   
 📚 دايماً بتعلم تقنيات جديدة و بطور من نفسي
 
 ---
