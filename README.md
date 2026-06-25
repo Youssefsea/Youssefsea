@@ -1,54 +1,96 @@
 <div align="center">
 
-# 👋 مرحباً، أنا يوسف (Youssef)
+# Youssef Yasser
 
-### 💻 Fullstack Developer | 🎓 Computer Science Student
+**Backend-First Fullstack Developer · Computer Science @ Menoufia University**
 
 [![GitHub followers](https://img.shields.io/github/followers/Youssefsea?label=Follow&style=social)](https://github.com/Youssefsea)
-[![Profile Views](https://komarev.com/ghpvc/?username=Youssefsea&color=blueviolet&style=flat-square)](https://github.com/Youssefsea)
+[![Profile Views](https://komarev.com/ghpvc/?username=Youssefsea&color=6366f1&style=flat-square&label=Profile+Views)](https://github.com/Youssefsea)
 
 </div>
 
 ---
 
-## 🚀 عني | About Me
+## About Me
 
-🎯 **Fullstack Developer** متخصص في بناء Web Applications حديثة و سريعة  
-💼 بشتغل على **Node.js** في الـ Backend و **React/Next.js** في الـ Frontend  
-🎓 طالب **Computer Science** شغوف بالتطوير و حل المشكلات  
-🍕 حالياً بشتغل على **Food Delivery Full Stack Project**  
-📚 دايماً بتعلم تقنيات جديدة و بطور من نفسي
+I'm a fullstack developer with a backend-first mindset, currently studying Computer Science at Menoufia University (expected graduation July 2027). I build production-grade web applications covering the full cycle — from database schema design and API architecture to responsive frontend UIs.
 
----
+My focus is on building **real, scalable systems**: distributed locking with Redis, geospatial queries, AI-integrated workflows, and real-time features with Socket.IO.
 
-## 🛠️ Tech Stack
-
-<div align="center">
-
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-
-### Database
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### Languages & Tools
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
+- 🏗️ Currently building: **EdTech SaaS platform** connecting students with learning centers across Egypt
+- 🤖 Exploring: AI-powered financial tools and natural language transaction parsing
+- 🌍 Open to: Remote opportunities and international internships
 
 ---
 
-## 📊 GitHub Stats
+## Tech Stack
+
+**Backend**
+`Node.js` · `Express.js` · `PostgreSQL` · `Redis` · `JWT` · `Socket.IO` · `REST APIs`
+
+**Frontend**
+`React` · `Next.js` · `TypeScript` · `Tailwind CSS` · `Framer Motion`
+
+**AI & Integrations**
+`Google Gemini AI` · `Web Speech API` · `OpenStreetMap / Leaflet`
+
+**Tools & DevOps**
+`Git` · `Vercel` · `Resend (Email API)` · `bcrypt` · `UUID (Idempotency)`
+
+---
+
+## Featured Projects
+
+### 🎓 [ذاكر صح — EdTech SaaS Platform](https://center-saas-front-83p8.vercel.app/)
+
+A comprehensive educational marketplace built for the Egyptian market, connecting students with nearby learning centers and private tutors.
+
+**Key technical highlights:**
+- Serves **3 user roles**: Student, Center Admin, Teacher — each with a dedicated dashboard
+- **Geolocation-based discovery** using OpenStreetMap to surface nearest centers
+- **Token-based content streaming** for access control on paid video/file content
+- Schedule conflict detection when centers book new sessions
+- Room access code generation and student enrollment flows
+- Super Admin panel with platform-wide analytics and account moderation
+
+`Next.js` · `Node.js (Express)` · `PostgreSQL` · `Redis` · `React`
+
+---
+
+### 🍕 [أكلي — Food Delivery Platform](https://food-front-rho.vercel.app/)
+
+Full-stack food delivery app with dual interfaces for customers and restaurant vendors.
+
+**Key technical highlights:**
+- **Real-time chat** (Socket.IO) between customers and restaurants, scoped per-order and gated by payment confirmation
+- **GPS + Haversine Formula** for distance calculation and delivery fee estimation
+- Smart cart supporting multiple restaurants simultaneously
+- Payment proof upload workflow (Vodafone Cash / InstaPay) with admin verification
+- Vendor dashboard with sales stats, dish management, and live order tracking
+- Custom OTP email flow via Resend API with a verified domain
+
+`Next.js` · `Node.js (Express)` · `PostgreSQL` · `Socket.IO` · `TypeScript` · `Leaflet`
+
+---
+
+### 💰 [WealthWise AI — Smart Wallet](https://wallet-wep-react.vercel.app/)
+
+AI-powered personal finance wallet with Arabic natural language expense parsing.
+
+**Key technical highlights:**
+- **Dual wallet system**: a main (real-balance) wallet and local offline wallets
+- **AI transaction parsing** via Google Gemini — enter "300 جنيه فراخ و150 جنيه عصير" and the AI extracts, categorizes, and records each item
+- **Arabic voice input** using the Web Speech API
+- **Idempotency keys** (UUID per operation) prevent duplicate charges on retries
+- **Redis distributed locks** prevent race conditions on concurrent wallet operations
+- **SERIALIZABLE transaction isolation** for peer-to-peer transfers
+- Monthly budget tracking with visual spend-vs-limit indicators and AI financial advice personalized by city
+
+`Next.js` · `Node.js (Express)` · `PostgreSQL` · `Redis` · `Google Gemini AI` · `TypeScript`
+
+---
+
+## GitHub Stats
 
 <div align="center">
 
@@ -56,69 +98,19 @@
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Youssefsea&layout=compact&theme=tokyonight&hide_border=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Youssefsea&theme=tokyonight&hide_border=true)
-
 </div>
 
 ---
 
-## 🎯 Current Focus
-
-```javascript
-const youssef = {
-    role: "Fullstack Developer",
-    currentlyLearning: ["Advanced React Patterns", "Next.js 14", "Performance Optimization"],
-    workingOn: "Food Delivery Fullstack Application",
-    techStack: {
-        frontend: ["React", "Next.js", "HTML", "CSS", "JavaScript"],
-        backend: ["Node.js", "Express.js"],
-        database: ["MySQL"]
-    },
-    goals2026: [
-        "Master Fullstack Development",
-        "Build Scalable Production Apps",
-        "Contribute to Open Source"
-    ],
-    funFact: "أفضل حاجة في البرمجة هي لما الـ Bug يختفي لوحده 😄"
-};
-```
-
----
-
-## 🔥 Featured Projects
-
-<div align="center">
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| 🍕 **Food Delivery App** | Full-stack food delivery platform | React, Node.js, Express, MySQL |
-| 🚀 **Coming Soon...** | More awesome fullstack projects! | Next.js, React, Node.js |
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-[![Youssef's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Youssefsea&theme=tokyo-night&hide_border=true)](https://github.com/Youssefsea)
-
----
-
-## 📫 Let's Connect!
-
-<div align="center">
+## Let's Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-Youssefsea-181717?style=for-the-badge&logo=github)](https://github.com/Youssefsea)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Youssef_Yasser-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/youssef-yasser-97aa742b0)
 
 ---
 
-### 💡 "The best way to predict the future is to create it." – Peter Drucker
+<div align="center">
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-
----
-
-⭐️ **إذا عجبك البروفايل، متنساش تدي ستار للـ repos!**
+*"Build things that work in production, not just in tutorials."*
 
 </div>
