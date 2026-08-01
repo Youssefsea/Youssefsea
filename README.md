@@ -1,116 +1,125 @@
 <div align="center">
 
-# Youssef Yasser
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=250&section=header&text=Youssef%20Yasser&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend-Leaning%20Full%20Stack%20Developer&descAlignY=55&descSize=20" width="100%"/>
 
-**Backend-First Fullstack Developer · Computer Science @ Menoufia University**
+<a href="https://portfolio-snowy-five-98.vercel.app/">
+  <img src="https://img.shields.io/badge/🚀_VIEW_MY_PORTFOLIO-000000?style=for-the-badge&logoColor=white&labelColor=000000" alt="Portfolio"/>
+</a>
 
-[![GitHub followers](https://img.shields.io/github/followers/Youssefsea?label=Follow&style=social)](https://github.com/Youssefsea)
-[![Profile Views](https://komarev.com/ghpvc/?username=Youssefsea&color=6366f1&style=flat-square&label=Profile+Views)](https://github.com/Youssefsea)
+<br/><br/>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=600&lines=Computer+Science+Student+%F0%9F%8E%93;Full+Stack+%2F+Backend+Developer+%F0%9F%92%BB;Node.js+%7C+Express+%7C+TypeScript;Building+%22%D8%B0%D8%A7%D9%83%D8%B1+%D8%B5%D8%AD%22%2C+%22%D8%A3%D9%83%D9%84%D9%8A%22%2C+WealthWise+AI;Always+Learning%2C+Always+Shipping+%F0%9F%9A%80" alt="Typing SVG"/>
+</a>
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
-## About Me
+## 🧠 About Me
 
-I'm a fullstack developer with a backend-first mindset, currently studying Computer Science at Menoufia University (expected graduation July 2027). I build production-grade web applications covering the full cycle — from database schema design and API architecture to responsive frontend UIs.
+<img align="right" width="320" src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Coding.gif">
 
-My focus is on building **real, scalable systems**: distributed locking with Redis, geospatial queries, AI-integrated workflows, and real-time features with Socket.IO.
+- 🎓 Computer Science student in Egypt
+- 💼 Actively looking for a backend / full‑stack developer role
+- 🛠️ I love turning ideas into real, working products end‑to‑end
+- 🔭 Currently building: **ذاكر صح** (EdTech SaaS), **أكلي** (food delivery), **WealthWise AI** (AI smart wallet)
+- 🌱 Always leveling up my backend architecture & system design skills
+- ⚡ Fun fact: I ship faster with dark mode ON 🌙
 
-- 🏗️ Currently building: **EdTech SaaS platform** connecting students with learning centers across Egypt
-- 🤖 Exploring: AI-powered financial tools and natural language transaction parsing
-- 🌍 Open to: Remote opportunities and international internships
+<br clear="right"/>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
-## Tech Stack
-
-**Backend**
-`Node.js` · `Express.js` · `PostgreSQL` · `Redis` · `JWT` · `Socket.IO` · `REST APIs`
-
-**Frontend**
-`React` · `Next.js` · `TypeScript` · `Tailwind CSS` · `Framer Motion`
-
-**AI & Integrations**
-`Google Gemini AI` · `Web Speech API` · `OpenStreetMap / Leaflet`
-
-**Tools & DevOps**
-`Git` · `Vercel` · `Resend (Email API)` · `bcrypt` · `UUID (Idempotency)`
-
----
-
-## Featured Projects
-
-### 🎓 [ذاكر صح — EdTech SaaS Platform](https://center-saas-front-83p8.vercel.app/)
-
-A comprehensive educational marketplace built for the Egyptian market, connecting students with nearby learning centers and private tutors.
-
-**Key technical highlights:**
-- Serves **3 user roles**: Student, Center Admin, Teacher — each with a dedicated dashboard
-- **Geolocation-based discovery** using OpenStreetMap to surface nearest centers
-- **Token-based content streaming** for access control on paid video/file content
-- Schedule conflict detection when centers book new sessions
-- Room access code generation and student enrollment flows
-- Super Admin panel with platform-wide analytics and account moderation
-
-`Next.js` · `Node.js (Express)` · `PostgreSQL` · `Redis` · `React`
-
----
-
-### 🍕 [أكلي — Food Delivery Platform](https://food-front-rho.vercel.app/)
-
-Full-stack food delivery app with dual interfaces for customers and restaurant vendors.
-
-**Key technical highlights:**
-- **Real-time chat** (Socket.IO) between customers and restaurants, scoped per-order and gated by payment confirmation
-- **GPS + Haversine Formula** for distance calculation and delivery fee estimation
-- Smart cart supporting multiple restaurants simultaneously
-- Payment proof upload workflow (Vodafone Cash / InstaPay) with admin verification
-- Vendor dashboard with sales stats, dish management, and live order tracking
-- Custom OTP email flow via Resend API with a verified domain
-
-`Next.js` · `Node.js (Express)` · `PostgreSQL` · `Socket.IO` · `TypeScript` · `Leaflet`
-
----
-
-### 💰 [WealthWise AI — Smart Wallet](https://wallet-wep-react.vercel.app/)
-
-AI-powered personal finance wallet with Arabic natural language expense parsing.
-
-**Key technical highlights:**
-- **Dual wallet system**: a main (real-balance) wallet and local offline wallets
-- **AI transaction parsing** via Google Gemini — enter "300 جنيه فراخ و150 جنيه عصير" and the AI extracts, categorizes, and records each item
-- **Arabic voice input** using the Web Speech API
-- **Idempotency keys** (UUID per operation) prevent duplicate charges on retries
-- **Redis distributed locks** prevent race conditions on concurrent wallet operations
-- **SERIALIZABLE transaction isolation** for peer-to-peer transfers
-- Monthly budget tracking with visual spend-vs-limit indicators and AI financial advice personalized by city
-
-`Next.js` · `Node.js (Express)` · `PostgreSQL` · `Redis` · `Google Gemini AI` · `TypeScript`
-
----
-
-## GitHub Stats
+## 🛠️ Tech Stack
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Youssefsea&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+### Frontend
+<img src="https://skillicons.dev/icons?i=react,nextjs,angular,tailwind,js,ts,html,css&theme=dark" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Youssefsea&layout=compact&theme=tokyonight&hide_border=true)
+### Backend
+<img src="https://skillicons.dev/icons?i=nodejs,express,postgresql,mongodb,redis,mysql,docker&theme=dark" />
+
+### Tools
+<img src="https://skillicons.dev/icons?i=git,github,postman,vscode,vercel&theme=dark" />
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
-## Let's Connect
-
-[![GitHub](https://img.shields.io/badge/GitHub-Youssefsea-181717?style=for-the-badge&logo=github)](https://github.com/Youssefsea)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Youssef_Yasser-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/youssef-yasser-97aa742b0)
-
----
+## 🚀 Featured Projects
 
 <div align="center">
 
-*"Build things that work in production, not just in tutorials."*
+<a href="https://portfolio-snowy-five-98.vercel.app/">
+<img width="410" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1000&color=38BDF8&center=true&vCenter=true&width=410&lines=%D8%B0%D8%A7%D9%83%D8%B1+%D8%B5%D8%AD+-+EdTech+SaaS;Next.js+%7C+Express+%7C+PostgreSQL+%7C+Redis"/>
+</a>
+<a href="https://portfolio-snowy-five-98.vercel.app/">
+<img width="410" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1000&color=34D399&center=true&vCenter=true&width=410&lines=%D8%A3%D9%83%D9%84%D9%8A+-+Food+Delivery+Platform;Next.js+%7C+Express+%7C+Socket.IO+%7C+Leaflet"/>
+</a>
+
+<br/>
+
+<a href="https://portfolio-snowy-five-98.vercel.app/">
+<img width="410" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1000&color=FBBF24&center=true&vCenter=true&width=410&lines=WealthWise+AI+-+Smart+Wallet;Next.js+%7C+Express+%7C+Gemini+AI+%7C+Redis"/>
+</a>
+
+<br/><br/>
+
+<a href="https://portfolio-snowy-five-98.vercel.app/">
+  <img src="https://img.shields.io/badge/See_all_projects_on_my_portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Link"/>
+</a>
 
 </div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Youssefsea&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=38BDF8&text_color=c9d1d9" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Youssefsea&theme=github-dark-blue&hide_border=true&background=0d1117&ring=A78BFA&fire=FBBF24&currStreakLabel=A78BFA" height="165"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Youssefsea&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" height="165"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Youssefsea&theme=react-dark&hide_border=true&bg_color=0d1117&color=A78BFA&line=38BDF8&point=FBBF24" width="95%"/>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+
+## 🐍 Contribution Snake
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Youssefsea/Youssefsea/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</div>
+
+> ⚠️ يشتغل تلقائي عن طريق GitHub Action بيتحدث كل يوم — راجع تعليمات التفعيل تحت.
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+
+## 📫 Let's Connect
+
+<div align="center">
+
+<a href="https://portfolio-snowy-five-98.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/in/youssef-yasser-97aa742b0" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://github.com/Youssefsea" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=Youssefsea&label=Profile%20Views&color=A78BFA&style=for-the-badge" alt="profile views"/>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
