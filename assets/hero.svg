@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-label="Youssef Yasser — Full Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09090F"/>
+      <stop offset=".45" stop-color="#17123B"/>
+      <stop offset=".8" stop-color="#4C1D95"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="planet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#FEF3C7"/>
+      <stop offset="1" stop-color="#BAE6FD"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+      .tw{animation:tw 2.6s ease-in-out infinite}
+      @keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+      .fl{animation:fl 5s ease-in-out infinite}
+      .fl2{animation:fl 6.5s ease-in-out infinite reverse}
+      @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+      .cl{animation:cl 20s linear infinite}
+      @keyframes cl{0%{transform:translateX(-150px)}100%{transform:translateX(1100px)}}
+      .ty{transform-box:fill-box;transform-origin:left center;animation:ty 4s ease-in-out infinite}
+      @keyframes ty{0%{transform:scaleX(0)}40%,85%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+      .bl{transform-box:fill-box;transform-origin:center;animation:bl 4s infinite}
+      @keyframes bl{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+      .st{animation:st 3s ease-in-out infinite}
+      @keyframes st{0%{opacity:0;transform:translateY(6px)}50%{opacity:.8}100%{opacity:0;transform:translateY(-10px)}}
+      .pulse{animation:pu 2.4s ease-in-out infinite}
+      @keyframes pu{0%,100%{opacity:.5}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="420" rx="28" fill="url(#bg)"/>
+
+  <!-- stars -->
+  <g fill="#fff">
+    <circle class="tw" cx="40" cy="40" r="2"/>
+    <circle class="tw" style="animation-delay:-1s" cx="150" cy="70" r="1.5"/>
+    <circle class="tw" style="animation-delay:-2s" cx="260" cy="38" r="2.2"/>
+    <circle class="tw" style="animation-delay:-.5s" cx="380" cy="80" r="1.6"/>
+    <circle class="tw" style="animation-delay:-1.5s" cx="470" cy="34" r="2"/>
+    <circle class="tw" style="animation-delay:-2.2s" cx="560" cy="64" r="1.5"/>
+    <circle class="tw" style="animation-delay:-.8s" cx="700" cy="40" r="2.4"/>
+    <circle class="tw" style="animation-delay:-1.8s" cx="820" cy="52" r="1.6"/>
+    <circle class="tw" style="animation-delay:-.3s" cx="965" cy="150" r="2"/>
+    <circle class="tw" style="animation-delay:-2.4s" cx="520" cy="385" r="1.8"/>
+    <circle class="tw" style="animation-delay:-1.2s" cx="120" cy="395" r="2"/>
+    <circle class="tw" style="animation-delay:-.6s" cx="330" cy="400" r="1.5"/>
+    <circle class="tw" style="animation-delay:-1.9s" cx="980" cy="390" r="2"/>
+  </g>
+  <g stroke="#FDE68A" stroke-width="2" stroke-linecap="round" class="tw" style="animation-delay:-1s">
+    <path d="M600 30v12M594 36h12"/>
+    <path d="M60 330v10M55 335h10"/>
+  </g>
+
+  <!-- clouds -->
+  <g fill="#C4B5FD" opacity=".14">
+    <g class="cl"><g transform="translate(0,30)"><ellipse cx="40" cy="12" rx="40" ry="14"/><ellipse cx="22" cy="18" rx="22" ry="12"/><ellipse cx="62" cy="18" rx="24" ry="12"/></g></g>
+    <g class="cl" style="animation-delay:-10s"><g transform="translate(0,372)"><ellipse cx="40" cy="12" rx="40" ry="14"/><ellipse cx="22" cy="18" rx="22" ry="12"/><ellipse cx="62" cy="18" rx="24" ry="12"/></g></g>
+  </g>
+
+  <!-- planet -->
+  <g class="fl2">
+    <circle cx="930" cy="70" r="26" fill="url(#planet)"/>
+    <ellipse cx="930" cy="70" rx="44" ry="10" fill="none" stroke="#FDE68A" stroke-width="3" transform="rotate(-20 930 70)"/>
+  </g>
+
+  <!-- ═════════ LEFT: TEXT ═════════ -->
+  <text x="62" y="102" font-size="17" font-weight="700" fill="#38BDF8" letter-spacing="5">HELLO WORLD, I'M</text>
+  <text x="60" y="172" font-size="70" font-weight="900" fill="url(#name)" stroke="#312E81" stroke-width="8" stroke-linejoin="round" paint-order="stroke">YOUSSEF</text>
+  <text x="60" y="236" font-size="70" font-weight="900" fill="url(#name)" stroke="#312E81" stroke-width="8" stroke-linejoin="round" paint-order="stroke">YASSER</text>
+  <text x="62" y="272" font-size="20" font-weight="700" fill="#38BDF8" letter-spacing="4">FULL STACK DEVELOPER</text>
+
+  <!-- stack chips -->
+  <g font-size="14" font-weight="700" fill="#E9D5FF" text-anchor="middle">
+    <rect x="60" y="288" width="90" height="32" rx="16" fill="#fff" fill-opacity=".08" stroke="#A78BFA"/>
+    <text x="105" y="309">Next.js</text>
+    <rect x="162" y="288" width="90" height="32" rx="16" fill="#fff" fill-opacity=".08" stroke="#A78BFA"/>
+    <text x="207" y="309">Node.js</text>
+    <rect x="264" y="288" width="118" height="32" rx="16" fill="#fff" fill-opacity=".08" stroke="#A78BFA"/>
+    <text x="323" y="309">PostgreSQL</text>
+    <rect x="394" y="288" width="80" height="32" rx="16" fill="#fff" fill-opacity=".08" stroke="#A78BFA"/>
+    <text x="434" y="309">Redis</text>
+  </g>
+  <text x="62" y="362" font-size="21" font-style="italic" fill="#DDD6FE">Turning ideas into real products.</text>
+
+  <!-- ═════════ RIGHT: CARTOON SCENE ═════════ -->
+  <circle cx="820" cy="230" r="175" fill="url(#glow)"/>
+
+  <!-- floating code symbols -->
+  <text class="fl" x="590" y="135" font-size="34" font-weight="800" fill="#38BDF8">&lt;/&gt;</text>
+  <text class="fl2" x="690" y="100" font-size="36" font-weight="800" fill="#C4B5FD">{ }</text>
+  <text class="fl" style="animation-delay:-2s" x="752" y="170" font-size="34" font-weight="800" fill="#FBBF24">;</text>
+  <text class="fl2" style="animation-delay:-1s" x="548" y="200" font-size="26" font-weight="800" fill="#F472B6">=&gt;</text>
+
+  <!-- floating terminal -->
+  <g class="fl">
+    <g transform="translate(885,128)">
+      <rect width="100" height="62" rx="8" fill="#0F172A" stroke="#A78BFA" stroke-width="2"/>
+      <circle cx="12" cy="11" r="3" fill="#FB7185"/>
+      <circle cx="23" cy="11" r="3" fill="#FBBF24"/>
+      <circle cx="34" cy="11" r="3" fill="#34D399"/>
+      <text x="10" y="40" font-size="11" font-family="Consolas,Menlo,monospace" fill="#34D399">$ npm run dev</text>
+    </g>
+  </g>
+
+  <!-- monitor -->
+  <rect x="585" y="185" width="160" height="112" rx="10" fill="#0B1020" stroke="#38BDF8" stroke-width="4"/>
+  <rect x="655" y="297" width="20" height="17" fill="#475569"/>
+  <rect x="630" y="314" width="70" height="8" rx="4" fill="#64748B"/>
+  <circle cx="599" cy="199" r="3.5" fill="#FB7185"/>
+  <circle cx="611" cy="199" r="3.5" fill="#FBBF24"/>
+  <circle cx="623" cy="199" r="3.5" fill="#34D399"/>
+  <rect class="ty" x="599" y="215" width="60" height="7" rx="3.5" fill="#A78BFA"/>
+  <rect class="ty" style="animation-delay:.3s" x="611" y="230" width="84" height="7" rx="3.5" fill="#38BDF8"/>
+  <rect class="ty" style="animation-delay:.6s" x="611" y="245" width="50" height="7" rx="3.5" fill="#F472B6"/>
+  <rect class="ty" style="animation-delay:.9s" x="611" y="260" width="96" height="7" rx="3.5" fill="#34D399"/>
+  <rect class="ty" style="animation-delay:1.2s" x="599" y="275" width="40" height="7" rx="3.5" fill="#FBBF24"/>
+
+  <!-- character: hood + body -->
+  <ellipse cx="820" cy="236" rx="58" ry="38" fill="#5B21B6"/>
+  <path d="M760 340 Q758 262 820 252 Q882 262 880 340Z" fill="#7C3AED"/>
+  <rect x="808" y="238" width="24" height="22" rx="8" fill="#F59E6C"/>
+
+  <!-- head -->
+  <circle cx="820" cy="205" r="42" fill="#FDBA8C"/>
+  <path d="M778 200 Q778 164 820 164 Q862 164 862 200 Q846 182 820 184 Q794 182 778 200Z" fill="#1E1B4B"/>
+  <path d="M800 170 Q812 156 828 168" fill="none" stroke="#1E1B4B" stroke-width="6" stroke-linecap="round"/>
+  <!-- headphones -->
+  <path d="M776 205 Q776 150 820 150 Q864 150 864 205" fill="none" stroke="#38BDF8" stroke-width="9" stroke-linecap="round"/>
+  <rect x="764" y="195" width="18" height="36" rx="9" fill="#A78BFA" stroke="#38BDF8" stroke-width="3"/>
+  <rect x="858" y="195" width="18" height="36" rx="9" fill="#A78BFA" stroke="#38BDF8" stroke-width="3"/>
+  <!-- face -->
+  <ellipse class="bl" cx="806" cy="208" rx="4.5" ry="5.5" fill="#1E1B4B"/>
+  <ellipse class="bl" cx="834" cy="208" rx="4.5" ry="5.5" fill="#1E1B4B"/>
+  <circle cx="808" cy="206" r="1.5" fill="#fff"/>
+  <circle cx="836" cy="206" r="1.5" fill="#fff"/>
+  <circle cx="798" cy="222" r="6" fill="#FB7185" opacity=".45"/>
+  <circle cx="842" cy="222" r="6" fill="#FB7185" opacity=".45"/>
+  <path d="M809 224 Q820 235 831 224" fill="none" stroke="#9A3412" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- desk -->
+  <rect x="545" y="322" width="430" height="14" rx="7" fill="#FDE68A"/>
+  <rect x="575" y="336" width="10" height="62" fill="#6D28D9"/>
+  <rect x="935" y="336" width="10" height="62" fill="#6D28D9"/>
+
+  <!-- laptop (back view) -->
+  <rect x="772" y="266" width="96" height="48" rx="6" fill="#CBD5E1" stroke="#94A3B8" stroke-width="2"/>
+  <path class="pulse" d="M820 279 L824 286 L831 290 L824 294 L820 301 L816 294 L809 290 L816 286Z" fill="#7C3AED"/>
+  <rect x="762" y="312" width="116" height="10" rx="5" fill="#94A3B8"/>
+
+  <!-- arms + hands -->
+  <ellipse cx="768" cy="300" rx="14" ry="27" fill="#7C3AED" transform="rotate(-18 768 300)"/>
+  <ellipse cx="872" cy="300" rx="14" ry="27" fill="#7C3AED" transform="rotate(18 872 300)"/>
+  <circle cx="788" cy="313" r="8" fill="#FDBA8C"/>
+  <circle cx="852" cy="313" r="8" fill="#FDBA8C"/>
+
+  <!-- coffee mug -->
+  <rect x="905" y="290" width="26" height="32" rx="6" fill="#FEF3C7"/>
+  <path d="M931 298 q14 0 0 18" fill="none" stroke="#FEF3C7" stroke-width="4"/>
+  <path class="st" d="M913 284 q-5 -8 0 -14" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <path class="st" style="animation-delay:-1.5s" d="M923 284 q-5 -8 0 -14" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+</svg>

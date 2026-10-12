@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 84" width="460" height="84" role="img" aria-label="Explore my portfolio">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <clipPath id="c"><rect x="4" y="4" width="452" height="68" rx="34"/></clipPath>
+    <style>
+      text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+      .sh{animation:sh 3.2s ease-in-out infinite}
+      @keyframes sh{0%{transform:translateX(-120px) skewX(-20deg)}60%,100%{transform:translateX(520px) skewX(-20deg)}}
+      .pu{transform-box:fill-box;transform-origin:center;animation:pu 2s ease-in-out infinite}
+      @keyframes pu{0%,100%{transform:scale(1)}50%{transform:scale(1.025)}}
+    </style>
+  </defs>
+  <rect x="4" y="10" width="452" height="68" rx="34" fill="#1E1B4B"/>
+  <g class="pu">
+    <rect x="4" y="4" width="452" height="68" rx="34" fill="url(#g)" stroke="#C4B5FD" stroke-width="3"/>
+    <g clip-path="url(#c)"><rect class="sh" x="0" y="0" width="50" height="80" fill="#fff" opacity=".25"/></g>
+    <text x="226" y="48" text-anchor="middle" font-size="24" font-weight="800" fill="#fff" letter-spacing="2">EXPLORE MY PORTFOLIO</text>
+    <path d="M418 36 l12 10 -12 10" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
