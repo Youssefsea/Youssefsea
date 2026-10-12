@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 260" width="460" height="260" role="img" aria-label="Terminal showing the build process: understand, design, build, test, deploy, improve">
+  <defs>
+    <style>
+      text{font-family:Consolas,Menlo,'Courier New',monospace;font-size:16px}
+      .ln{opacity:0;animation:ln 10s ease-in-out infinite}
+      @keyframes ln{0%{opacity:0;transform:translateX(-8px)}6%,86%{opacity:1;transform:translateX(0)}100%{opacity:0}}
+      .cur{animation:cur 1s steps(1) infinite}
+      @keyframes cur{50%{opacity:0}}
+    </style>
+  </defs>
+  <rect x="2" y="2" width="456" height="256" rx="16" fill="#0B1020" stroke="#A78BFA" stroke-width="3"/>
+  <path d="M2 18 Q2 2 18 2 H442 Q458 2 458 18 V38 H2Z" fill="#17123B"/>
+  <circle cx="24" cy="20" r="6" fill="#FB7185"/><circle cx="44" cy="20" r="6" fill="#FBBF24"/><circle cx="64" cy="20" r="6" fill="#34D399"/>
+  <text x="230" y="25" text-anchor="middle" font-size="13" fill="#A78BFA">quest.log</text>
+  <text class="ln" x="22" y="68" fill="#38BDF8">$ ./quest --start</text>
+  <text class="ln" style="animation-delay:.5s" x="22" y="96" fill="#E2E8F0"><tspan fill="#34D399">[OK]</tspan> 01  Understand the problem</text>
+  <text class="ln" style="animation-delay:1s" x="22" y="122" fill="#E2E8F0"><tspan fill="#34D399">[OK]</tspan> 02  Design the system</text>
+  <text class="ln" style="animation-delay:1.5s" x="22" y="148" fill="#E2E8F0"><tspan fill="#34D399">[OK]</tspan> 03  Build the features</text>
+  <text class="ln" style="animation-delay:2s" x="22" y="174" fill="#E2E8F0"><tspan fill="#34D399">[OK]</tspan> 04  Test and debug</text>
+  <text class="ln" style="animation-delay:2.5s" x="22" y="200" fill="#E2E8F0"><tspan fill="#34D399">[OK]</tspan> 05  Deploy to production</text>
+  <text class="ln" style="animation-delay:3s" x="22" y="226" fill="#E2E8F0"><tspan fill="#34D399">[OK]</tspan> 06  Learn and improve</text>
+  <rect class="cur" x="22" y="236" width="10" height="3" fill="#FBBF24"/>
+</svg>

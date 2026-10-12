@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Book and graduation cap illustration">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
+    <style>
+      .fl{animation:fl 4s ease-in-out infinite}
+      @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      .tw{animation:tw 2.4s ease-in-out infinite}
+      @keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+    </style>
+  </defs>
+  <circle cx="100" cy="100" r="92" fill="url(#b)" stroke="#BAE6FD" stroke-width="4"/>
+  <g fill="#fff">
+    <circle class="tw" cx="40" cy="60" r="2.5"/><circle class="tw" style="animation-delay:-1s" cx="160" cy="52" r="2"/>
+    <circle class="tw" style="animation-delay:-1.8s" cx="30" cy="110" r="1.8"/><circle class="tw" style="animation-delay:-.6s" cx="172" cy="104" r="2.4"/>
+  </g>
+  <path class="tw" d="M164 78 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z" fill="#FDE68A"/>
+  <!-- book -->
+  <path d="M42 122 Q71 110 100 122 V158 Q71 146 42 158Z" fill="#FEF3C7" stroke="#1E3A8A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M158 122 Q129 110 100 122 V158 Q129 146 158 158Z" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="4" stroke-linejoin="round"/>
+  <g stroke="#93C5FD" stroke-width="3" stroke-linecap="round">
+    <path d="M54 130 Q71 124 88 130"/><path d="M54 140 Q71 134 88 140"/>
+    <path d="M146 130 Q129 124 112 130"/><path d="M146 140 Q129 134 112 140"/>
+  </g>
+  <!-- cap -->
+  <g class="fl">
+    <path d="M76 76 V96 Q100 110 124 96 V76 L100 86Z" fill="#312E81" stroke="#FEF3C7" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M100 44 L148 64 L100 84 L52 64Z" fill="#1E1B4B" stroke="#FEF3C7" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M148 64 V92" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="148" cy="96" r="5" fill="#FBBF24"/>
+  </g>
+</svg>

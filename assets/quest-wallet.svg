@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="AI wallet with coins illustration">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C3AED"/><stop offset="1" stop-color="#C026D3"/></linearGradient>
+    <style>
+      text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+      .fl{animation:fl 3.6s ease-in-out infinite}
+      .fl2{animation:fl 4.6s ease-in-out infinite reverse}
+      @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      .pu{transform-box:fill-box;transform-origin:center;animation:pu 2s ease-in-out infinite}
+      @keyframes pu{0%,100%{transform:scale(.8) rotate(0)}50%{transform:scale(1.15) rotate(20deg)}}
+      .bk{animation:bk 1.4s ease-in-out infinite}
+      @keyframes bk{0%,100%{opacity:.3}50%{opacity:1}}
+    </style>
+  </defs>
+  <circle cx="100" cy="100" r="92" fill="url(#b)" stroke="#F0ABFC" stroke-width="4"/>
+  <!-- coins -->
+  <g class="fl">
+    <circle cx="78" cy="54" r="17" fill="#FBBF24" stroke="#B45309" stroke-width="3"/>
+    <text x="78" y="61" text-anchor="middle" font-size="20" font-weight="900" fill="#B45309">£</text>
+  </g>
+  <g class="fl2">
+    <circle cx="116" cy="42" r="12" fill="#FDE68A" stroke="#B45309" stroke-width="3"/>
+    <text x="116" y="47" text-anchor="middle" font-size="14" font-weight="900" fill="#B45309">£</text>
+  </g>
+  <!-- AI sparkle -->
+  <path class="pu" d="M152 32 L157 45 L170 50 L157 55 L152 68 L147 55 L134 50 L147 45Z" fill="#38BDF8" stroke="#E0F2FE" stroke-width="2" stroke-linejoin="round"/>
+  <!-- wallet -->
+  <rect x="40" y="78" width="120" height="76" rx="14" fill="#1E1B4B" stroke="#FEF3C7" stroke-width="3"/>
+  <rect x="40" y="78" width="120" height="22" rx="11" fill="#312E81" stroke="#FEF3C7" stroke-width="3"/>
+  <rect x="124" y="110" width="36" height="26" rx="8" fill="#7C3AED" stroke="#FEF3C7" stroke-width="3"/>
+  <circle cx="140" cy="123" r="4" fill="#FEF3C7"/>
+  <!-- circuit lines -->
+  <path d="M52 142 H78 V128 H98 V114" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle class="bk" cx="98" cy="114" r="3.5" fill="#38BDF8"/>
+  <circle class="bk" style="animation-delay:-.7s" cx="52" cy="142" r="3.5" fill="#F472B6"/>
+</svg>

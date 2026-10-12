@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Burger and location pin illustration">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#EA580C"/></linearGradient>
+    <style>
+      .bn{animation:bn 1.6s ease-in-out infinite}
+      @keyframes bn{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+      .tw{animation:tw 1.6s ease-in-out infinite}
+      @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+    </style>
+  </defs>
+  <circle cx="100" cy="100" r="92" fill="url(#b)" stroke="#FDE68A" stroke-width="4"/>
+  <!-- speed lines -->
+  <g stroke="#FEF3C7" stroke-width="4" stroke-linecap="round">
+    <path class="tw" d="M16 92 h20"/><path class="tw" style="animation-delay:-.5s" d="M12 106 h26"/><path class="tw" style="animation-delay:-1s" d="M18 120 h18"/>
+  </g>
+  <!-- pin -->
+  <g class="bn">
+    <path d="M100 50 C84 34 82 18 100 18 C118 18 116 34 100 50Z" fill="#EF4444" stroke="#7F1D1D" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="100" cy="31" r="5" fill="#fff"/>
+  </g>
+  <!-- bottom bun -->
+  <path d="M52 136 H148 Q148 158 100 158 Q52 158 52 136Z" fill="#FCD34D" stroke="#7C2D12" stroke-width="4" stroke-linejoin="round"/>
+  <!-- patty -->
+  <rect x="48" y="114" width="104" height="20" rx="10" fill="#7C2D12" stroke="#431407" stroke-width="3"/>
+  <!-- cheese -->
+  <path d="M52 112 H148 L134 126 L118 112Z" fill="#FDE047" stroke="#A16207" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- lettuce -->
+  <path d="M44 108 q9 -10 18 0 t18 0 t18 0 t18 0 t18 0 t18 0 v7 H44Z" fill="#4ADE80" stroke="#166534" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- top bun -->
+  <path d="M50 100 Q50 60 100 60 Q150 60 150 100Z" fill="#FCD34D" stroke="#7C2D12" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="#FEF3C7">
+    <ellipse cx="82" cy="78" rx="5" ry="2.8" transform="rotate(-20 82 78)"/>
+    <ellipse cx="104" cy="72" rx="5" ry="2.8"/>
+    <ellipse cx="124" cy="82" rx="5" ry="2.8" transform="rotate(25 124 82)"/>
+    <ellipse cx="96" cy="90" rx="5" ry="2.8" transform="rotate(10 96 90)"/>
+  </g>
+</svg>

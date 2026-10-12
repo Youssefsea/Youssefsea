@@ -1,12 +1,14 @@
 <!-- ═══════════════════════════════════════════════════════════
-     YOUSSEF YASSER — GITHUB PROFILE README (v2)
-     Assets live in /assets: hero.svg, cta-portfolio.svg, divider.svg
-     Palette: 09090F / 17123B / 7C3AED / 2563EB / 38BDF8 / FEF3C7
+     YOUSSEF YASSER — GITHUB PROFILE README (v3)
+     Assets in /assets:
+       hero.svg, cta-portfolio.svg, divider.svg, terminal.svg, footer.svg,
+       sec-profile / sec-inventory / sec-quests / sec-arcade / sec-analytics / sec-connect .svg,
+       quest-edu.svg, quest-food.svg, quest-wallet.svg
      ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ══════════════ HERO (custom animated cartoon SVG) ══════════════ -->
+<!-- ══════════════ HERO ══════════════ -->
 <img src="./assets/hero.svg" width="100%" alt="Youssef Yasser — Full Stack Developer, cartoon developer illustration"/>
 
 <br/><br/>
@@ -36,20 +38,20 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=18&duration=2400&pause=700&color=A78BFA&center=true&vCenter=true&width=760&lines=Frontend+%2B+Backend+%2B+Databases;Building+applications+that+matter;Code.+Debug.+Deploy.+Repeat.+%F0%9F%9A%80" alt="Animated tagline"/>
 
+<br/>
+
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-</div>
-
-<!-- ══════════════ ABOUT ══════════════ -->
-<div align="center">
-
-## 👋 PLAYER PROFILE
+<!-- ══════════════ PLAYER PROFILE ══════════════ -->
+<img src="./assets/sec-profile.svg" width="100%" alt="Player profile"/>
 
 </div>
 
 <table>
 <tr>
 <td width="58%" valign="top">
+
+### 👋 Hey, I'm Youssef!
 
 I'm a **Computer Science student and Full Stack Developer** who loves turning ideas into complete, working applications.
 
@@ -76,12 +78,10 @@ I enjoy both sides of the stack: building interfaces people actually like using,
 <img src="https://img.shields.io/badge/CLASS-FULL%20STACK%20DEV-7C3AED?style=for-the-badge" alt="Class: Full Stack Developer"/>
 <img src="https://img.shields.io/badge/STATUS-ALWAYS%20LEARNING-16A34A?style=for-the-badge" alt="Status: always learning"/>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<br/><br/>
 
 <!-- ══════════════ INVENTORY ══════════════ -->
-## 🎒 INVENTORY
-
-<sub>The gear I build with, grouped by slot.</sub>
+<img src="./assets/sec-inventory.svg" width="100%" alt="Inventory"/>
 
 <br/><br/>
 
@@ -116,10 +116,14 @@ I enjoy both sides of the stack: building interfaces people actually like using,
 </tr>
 </table>
 
+<br/>
+
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-<!-- ══════════════ QUESTS (PROJECTS) ══════════════ -->
-## 🗺️ FEATURED QUESTS
+<!-- ══════════════ FEATURED QUESTS ══════════════ -->
+<img src="./assets/sec-quests.svg" width="100%" alt="Featured quests"/>
+
+<br/>
 
 <sub>Real features. Real workflows. Built to solve real problems.</sub>
 
@@ -135,7 +139,7 @@ I enjoy both sides of the stack: building interfaces people actually like using,
 </td>
 </tr>
 <tr>
-<td width="72%" valign="top">
+<td width="70%" valign="top">
 
 ### 📚 ذاكر صح
 
@@ -149,9 +153,11 @@ A learning platform connecting **students, tutors, and learning centers** in one
 <img src="https://skillicons.dev/icons?i=nextjs,express,postgres,redis&theme=dark&perline=4" alt="Next.js, Express.js, PostgreSQL, Redis"/>
 
 </td>
-<td width="28%" align="center" valign="middle">
+<td width="30%" align="center" valign="middle">
 
-<h1>📚</h1>
+<img src="./assets/quest-edu.svg" width="150" alt="Book and graduation cap illustration"/>
+
+<br/>
 
 <a href="https://center-saas-front-83p8.vercel.app/">
   <img src="https://img.shields.io/badge/%E2%96%B6-VIEW%20LIVE%20DEMO-2563EB?style=for-the-badge&labelColor=111827" alt="View live demo of Zaker Sah"/>
@@ -171,7 +177,7 @@ A learning platform connecting **students, tutors, and learning centers** in one
 </td>
 </tr>
 <tr>
-<td width="72%" valign="top">
+<td width="70%" valign="top">
 
 ### 🍔 أكلي
 
@@ -186,9 +192,11 @@ A complete food-delivery workflow connecting **customers, restaurants, orders, a
 <img src="https://img.shields.io/badge/Socket.IO-17123B?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO"/>
 
 </td>
-<td width="28%" align="center" valign="middle">
+<td width="30%" align="center" valign="middle">
 
-<h1>🍔</h1>
+<img src="./assets/quest-food.svg" width="150" alt="Burger and location pin illustration"/>
+
+<br/>
 
 <a href="https://food-front-rho.vercel.app/">
   <img src="https://img.shields.io/badge/%E2%96%B6-VIEW%20LIVE%20DEMO-F59E0B?style=for-the-badge&labelColor=111827" alt="View live demo of Akly"/>
@@ -208,7 +216,7 @@ A complete food-delivery workflow connecting **customers, restaurants, orders, a
 </td>
 </tr>
 <tr>
-<td width="72%" valign="top">
+<td width="70%" valign="top">
 
 ### 💰 WealthWise AI
 
@@ -227,9 +235,11 @@ A smart financial application that helps users interact with their financial dat
 <img src="https://img.shields.io/badge/Google%20Gemini-8B5CF6?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini"/>
 
 </td>
-<td width="28%" align="center" valign="middle">
+<td width="30%" align="center" valign="middle">
 
-<h1>💰</h1>
+<img src="./assets/quest-wallet.svg" width="150" alt="AI wallet with coins illustration"/>
+
+<br/>
 
 <a href="https://wallet-wep-react.vercel.app/">
   <img src="https://img.shields.io/badge/%E2%96%B6-VIEW%20LIVE%20DEMO-7C3AED?style=for-the-badge&labelColor=111827" alt="View live demo of WealthWise AI"/>
@@ -241,12 +251,16 @@ A smart financial application that helps users interact with their financial dat
 
 <div align="center">
 
+<br/>
+
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-<!-- ══════════════ ARCADE ══════════════ -->
-## 🕹️ THE DEVELOPER ARCADE
+<!-- ══════════════ DEVELOPER ARCADE ══════════════ -->
+<img src="./assets/sec-arcade.svg" width="100%" alt="Developer arcade"/>
 
 </div>
+
+<br/>
 
 <table>
 <tr>
@@ -254,7 +268,7 @@ A smart financial application that helps users interact with their financial dat
 
 ### 🐍 Contribution Snake
 
-<!-- Needs the snake GitHub Action. Without it this image will not load. -->
+<!-- Needs the snake GitHub Action (.github/workflows/snake.yml). -->
 <img src="https://raw.githubusercontent.com/Youssefsea/Youssefsea/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake animation"/>
 
 </td>
@@ -276,7 +290,7 @@ A smart financial application that helps users interact with their financial dat
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="46%" valign="top">
 
 ### 🎯 Current Mission
 
@@ -288,18 +302,9 @@ A smart financial application that helps users interact with their financial dat
 - Production Deployment
 
 </td>
-<td width="50%" valign="top">
+<td width="54%" align="center" valign="middle">
 
-### 🧠 Quest Log
-
-```text
-01  Understand the problem
-02  Design the system
-03  Build the features
-04  Test and debug
-05  Deploy to production
-06  Learn and improve
-```
+<img src="./assets/terminal.svg" width="100%" alt="Animated terminal showing the build process quest log"/>
 
 </td>
 </tr>
@@ -310,20 +315,25 @@ A smart financial application that helps users interact with their financial dat
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
 <!-- ══════════════ GITHUB ANALYTICS ══════════════ -->
-## 📊 GITHUB ANALYTICS
+<img src="./assets/sec-analytics.svg" width="100%" alt="GitHub analytics"/>
+
+<br/><br/>
 
 <img src="https://github-readme-stats.vercel.app/api?username=Youssefsea&show_icons=true&hide_border=true&border_radius=16&bg_color=0D1117&title_color=A78BFA&icon_color=38BDF8&text_color=C9D1D9" width="49%" alt="GitHub stats for Youssefsea"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Youssefsea&layout=compact&hide_border=true&border_radius=16&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9&langs_count=8" width="49%" alt="Most used languages"/>
 
 <br/><br/>
 
-<!-- Streak card: moved to the official demolab host (herokuapp one often fails with "Failed to retrieve contributions") -->
 <img src="https://streak-stats.demolab.com/?user=Youssefsea&theme=dark&hide_border=true&background=0D1117&ring=8B5CF6&fire=F59E0B&currStreakLabel=A78BFA&sideLabels=38BDF8&border_radius=16" width="75%" alt="GitHub contribution streak"/>
+
+<br/><br/>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-<!-- ══════════════ CONNECT / FOOTER ══════════════ -->
-## 🌐 LET'S CONNECT
+<!-- ══════════════ CONNECT ══════════════ -->
+<img src="./assets/sec-connect.svg" width="100%" alt="Let's connect"/>
+
+<br/>
 
 <p>Have an interesting idea or project? Let's build something awesome together.</p>
 
@@ -349,8 +359,7 @@ A smart financial application that helps users interact with their financial dat
 
 <br/><br/>
 
-**KEEP LEARNING. KEEP BUILDING. SEE YOU IN THE NEXT PROJECT! 🚀**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090F,25:17123B,55:4C1D95,80:7C3AED,100:38BDF8&height=130&section=footer" width="100%" alt="Footer banner"/>
+<!-- ══════════════ FOOTER ══════════════ -->
+<img src="./assets/footer.svg" width="100%" alt="Night city skyline with a rocket — keep learning, keep building"/>
 
 </div>

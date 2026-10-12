@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 90" width="1000" height="90" role="img" aria-label="DEVELOPER ARCADE">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#0F172A"/><stop offset=".5" stop-color="#065F46"/><stop offset="1" stop-color="#4C1D95"/></linearGradient>
+    <clipPath id="c"><rect width="1000" height="90" rx="22"/></clipPath>
+    <style>
+      text{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+      .tw{animation:tw 2.4s ease-in-out infinite}
+      @keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+      .sh{animation:sh 4s ease-in-out infinite}
+      @keyframes sh{0%{transform:translateX(-200px) skewX(-20deg)}60%,100%{transform:translateX(1200px) skewX(-20deg)}}
+      .sp{transform-box:fill-box;transform-origin:center;animation:sp 3s ease-in-out infinite}
+      @keyframes sp{0%,100%{transform:rotate(45deg) scale(1)}50%{transform:rotate(225deg) scale(1.25)}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="90" fill="url(#g)"/>
+    <rect class="sh" width="60" height="90" fill="#fff" opacity=".12"/>
+    <g fill="#fff">
+      <circle class="tw" cx="60" cy="20" r="2"/><circle class="tw" style="animation-delay:-1s" cx="140" cy="68" r="1.6"/>
+      <circle class="tw" style="animation-delay:-.5s" cx="860" cy="22" r="2"/><circle class="tw" style="animation-delay:-1.5s" cx="940" cy="66" r="1.6"/>
+    </g>
+  </g>
+  <rect x="2" y="2" width="996" height="86" rx="21" fill="none" stroke="#4ADE80" stroke-width="2"/>
+  <rect class="sp" x="222" y="37" width="16" height="16" rx="3" fill="#F472B6" stroke="#FEF3C7" stroke-width="2"/>
+  <rect class="sp" x="762" y="37" width="16" height="16" rx="3" fill="#F472B6" stroke="#FEF3C7" stroke-width="2"/>
+  <text x="500" y="58" text-anchor="middle" font-size="32" font-weight="900" fill="#FEF3C7" letter-spacing="7" stroke="#064E3B" stroke-width="6" stroke-linejoin="round" paint-order="stroke">DEVELOPER ARCADE</text>
+</svg>
