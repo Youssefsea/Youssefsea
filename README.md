@@ -1,76 +1,73 @@
+<!-- ═══════════════════════════════════════════════════════════
+     YOUSSEF YASSER — GITHUB PROFILE README
+     Theme: Cartoon Programmer + Gaming UI
+     Palette: navy 09090F / indigo 17123B / purple 7C3AED / blue 2563EB / cyan 38BDF8 / cream FEF3C7
+     ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ═══════════════════════ HERO ═══════════════════════ -->
+<!-- ══════════════ HERO BANNER ══════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090F,25:17123B,55:4C1D95,80:7C3AED,100:38BDF8&height=260&section=header&text=YOUSSEF%20YASSER&fontSize=60&fontColor=FEF3C7&fontAlignY=36&animation=twinkling&desc=%E2%9C%A6%20FULL%20STACK%20DEVELOPER%20%E2%9C%A6%20TURNING%20IDEAS%20INTO%20REAL%20PRODUCTS%20%E2%9C%A6&descSize=15&descAlignY=58&descColor=BAE6FD" width="100%" alt="Youssef Yasser — Full Stack Developer banner"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090F,25:17123B,55:4C1D95,80:7C3AED,100:38BDF8&height=250&section=header&text=YOUSSEF%20YASSER&fontSize=58&fontColor=FFFFFF&fontAlignY=38&animation=twinkling&desc=FULL%20STACK%20DEVELOPER%20%7C%20CREATIVE%20BUILDER&descSize=16&descAlignY=60&descColor=D8B4FE" width="100%" alt="Youssef Yasser — Full Stack Developer"/>
+<!-- Headline typing animation (1 of 2 on the page) -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2400&pause=700&color=A78BFA&center=true&vCenter=true&width=760&lines=Turning+ideas+into+real+products;Frontend+%2B+Backend+%2B+Databases;Code.+Debug.+Deploy.+Repeat.+%F0%9F%9A%80" alt="Animated tagline: Turning ideas into real products"/>
+
+<br/><br/>
+
+<!-- ══════════════ PRIMARY PORTFOLIO CTA (TOP) ══════════════ -->
+<a href="https://portfolio-snowy-five-98.vercel.app/">
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80-EXPLORE%20MY%20PORTFOLIO-7C3AED?style=for-the-badge&labelColor=2563EB" height="56" alt="Explore my portfolio"/>
+</a>
 
 <br/>
 
-<!-- ═══════════════ PRIMARY PORTFOLIO BUTTON ═══════════════ -->
-
 <a href="https://portfolio-snowy-five-98.vercel.app/">
-  <img src="https://img.shields.io/badge/%F0%9F%9A%80%20EXPLORE%20MY%20PORTFOLIO-7C3AED?style=for-the-badge&logo=vercel&logoColor=white&labelColor=111827" height="48" alt="Explore My Portfolio"/>
+  <strong>🌐 View my work · projects · experience ↗</strong>
 </a>
 
 <br/><br/>
 
-<a href="https://portfolio-snowy-five-98.vercel.app/">
-  <strong>🌐 VIEW MY WORK · PROJECTS · EXPERIENCE ↗</strong>
-</a>
-
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=18&duration=2200&pause=650&color=A78BFA&center=true&vCenter=true&width=800&lines=TURNING+IDEAS+INTO+REAL+PRODUCTS;FRONTEND+%2B+BACKEND+%2B+DATABASES;BUILDING+APPLICATIONS+THAT+MATTER;CODE.+DEBUG.+DEPLOY.+REPEAT.+%F0%9F%9A%80" alt="Developer typing animation"/>
-
-<br/><br/>
-
+<!-- Secondary links -->
 <a href="https://github.com/Youssefsea">
-  <img src="https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow me on GitHub"/>
 </a>
 <a href="https://www.linkedin.com/in/youssef-yasser-97aa742b0">
-  <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
 </a>
-<img src="https://komarev.com/ghpvc/?username=Youssefsea&label=PROFILE%20VISITORS&color=7C3AED&style=for-the-badge" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=Youssefsea&label=PROFILE%20VISITORS&color=38BDF8&labelColor=17123B&style=for-the-badge" alt="Profile visitors counter"/>
 
 </div>
 
----
+<br/>
 
-<!-- ═══════════════════════ ABOUT ME ═══════════════════════ -->
-
+<!-- ══════════════ ABOUT + CHARACTER ══════════════ -->
+<!--
+  CARTOON CHARACTER SLOT
+  Replace the image src below with your custom illustration once uploaded,
+  e.g. https://raw.githubusercontent.com/Youssefsea/Youssefsea/main/assets/hero-character.png
+  The GIF below is the existing placeholder so the layout never breaks.
+-->
 <table>
 <tr>
-<td width="62%" valign="middle">
+<td width="60%" valign="middle">
 
 ## 👋 Hey, I'm Youssef!
 
-I'm a **Computer Science student and Full Stack Developer** who enjoys transforming ideas into complete web applications.
+I'm a **Computer Science student and Full Stack Developer** who loves turning ideas into complete, working applications.
 
-I love working on both sides of development — creating interfaces people enjoy using and engineering the backend systems that power them.
+I enjoy both sides of the stack: building interfaces people actually like using, and engineering the backend systems that power them.
 
-- 🎨 Building clean and interactive user experiences
-- ⚙️ Developing APIs and backend architectures
-- 🗄️ Working with databases, caching, and data modeling
-- 🤖 Exploring AI-powered applications
-- 🚀 Turning projects into working products
+- 🎨 **Frontend:** clean, interactive user experiences
+- ⚙️ **Backend:** APIs and solid architecture
+- 🗄️ **Databases:** data modeling, caching, and queries
+- 🤖 **AI:** exploring AI-powered applications
 
-**My philosophy:** Build useful things, write better code, and keep learning.
-
-<br/>
-
-<img src="https://img.shields.io/badge/MINDSET-ALWAYS%20BUILDING-7C3AED?style=flat-square" alt="Always building"/>
+> 💡 **My philosophy:** build useful things, write better code, keep learning.
 
 </td>
-<td width="38%" align="center" valign="middle">
+<td width="40%" align="center" valign="middle">
 
-<!-- Animated coding character -->
-
-<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Coding.gif" width="280" alt="Cartoon-style coding animation"/>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=13&duration=1400&pause=400&color=38BDF8&center=true&vCenter=true&width=300&lines=%24+npm+run+dev;%24+writing+clean+code;%24+debugging...;%24+git+push;%24+deploy+%F0%9F%9A%80" alt="Coding terminal animation"/>
+<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Coding.gif" width="270" alt="Cartoon-style coding animation"/>
 
 </td>
 </tr>
@@ -78,193 +75,187 @@ I love working on both sides of development — creating interfaces people enjoy
 
 <div align="center">
 
-### 🎮 PLAYER PROFILE
+### 🎮 Player Card
 
-<img src="https://img.shields.io/badge/PLAYER-YOUSSEF%20YASSER-111827?style=for-the-badge&logo=github&logoColor=white" alt="Player"/>
-<img src="https://img.shields.io/badge/CLASS-FULL%20STACK%20DEV-7C3AED?style=for-the-badge" alt="Developer class"/>
-<img src="https://img.shields.io/badge/STATUS-ALWAYS%20LEARNING-16A34A?style=for-the-badge" alt="Status"/>
-
-</div>
-
----
-
-<!-- ═══════════════════════ TECH STACK ═══════════════════════ -->
-
-<div align="center">
-
-## ⚡ MY TECH UNIVERSE
-
-<sub>My favorite tools for building modern web applications.</sub>
-
-<br/><br/>
-
-### 💻 Languages & Frameworks
-
-<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,tailwind&theme=dark&perline=7" alt="Languages and frameworks"/>
-
-<br/><br/>
-
-### 🗄️ Databases & Infrastructure
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,docker&theme=dark&perline=5" alt="Databases and infrastructure"/>
-
-<br/><br/>
-
-### 🛠️ Development Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,postman,vercel&theme=dark&perline=4" alt="Development tools"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/AI-Google%20Gemini-8B5CF6?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini"/>
-<img src="https://img.shields.io/badge/REAL--TIME-Socket.IO-111827?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Socket.IO"/>
-<img src="https://img.shields.io/badge/BACKGROUND%20JOBS-BullMQ-E11D48?style=for-the-badge" alt="BullMQ"/>
-<img src="https://img.shields.io/badge/MAPS-Leaflet-16A34A?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet"/>
+<img src="https://img.shields.io/badge/PLAYER-YOUSSEF%20YASSER-17123B?style=for-the-badge&logo=github&logoColor=FEF3C7" alt="Player: Youssef Yasser"/>
+<img src="https://img.shields.io/badge/CLASS-FULL%20STACK%20DEV-7C3AED?style=for-the-badge" alt="Class: Full Stack Developer"/>
+<img src="https://img.shields.io/badge/STATUS-ALWAYS%20LEARNING-16A34A?style=for-the-badge" alt="Status: always learning"/>
 
 </div>
 
 ---
 
-<!-- ═══════════════════════ FEATURED PROJECTS ═══════════════════════ -->
-
+<!-- ══════════════ TECH INVENTORY ══════════════ -->
 <div align="center">
 
-## 🚀 FEATURED PROJECTS
+## 🎒 MY INVENTORY
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=15&duration=1800&pause=600&color=F59E0B&center=true&vCenter=true&width=750&lines=MY+PROJECTS%2C+MY+QUESTS;REAL+FEATURES.+REAL+WORKFLOWS.;BUILT+TO+SOLVE+REAL+PROBLEMS.+%F0%9F%8E%AE" alt="Featured projects animation"/>
+<sub>The gear I build with, grouped by slot.</sub>
 
-</div>
+<br/><br/>
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-<div align="center">
-
-### 📚 ذاكر صح
-
-**EDTECH SAAS PLATFORM**
-
-<img src="https://img.shields.io/badge/NEXT.JS-000000?style=flat-square&logo=next.js" alt="Next.js"/>
-<img src="https://img.shields.io/badge/EXPRESS-111827?style=flat-square&logo=express" alt="Express.js"/>
-<img src="https://img.shields.io/badge/POSTGRESQL-31648C?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/REDIS-DC2626?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
+<td align="center" width="22%"><strong>🎨 Frontend</strong></td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind&theme=dark&perline=5" alt="JavaScript, TypeScript, React, Next.js, Tailwind CSS"/>
+</td>
+</tr>
+<tr>
+<td align="center"><strong>⚙️ Backend</strong></td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark&perline=5" alt="Node.js and Express.js"/>
+</td>
+</tr>
+<tr>
+<td align="center"><strong>🗄️ Databases</strong></td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark&perline=5" alt="PostgreSQL, MySQL, MongoDB, Redis"/>
+</td>
+</tr>
+<tr>
+<td align="center"><strong>🤖 AI</strong></td>
+<td align="center">
+<img src="https://img.shields.io/badge/Google%20Gemini-8B5CF6?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini"/>
+</td>
+</tr>
+<tr>
+<td align="center"><strong>🛠️ Tools &amp; DevOps</strong></td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=docker,git,github,postman,vercel&theme=dark&perline=5" alt="Docker, Git, GitHub, Postman, Vercel"/>
+</td>
+</tr>
+<tr>
+<td align="center"><strong>⚡ Real-time &amp; Infra</strong></td>
+<td align="center">
+<img src="https://img.shields.io/badge/Socket.IO-17123B?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Socket.IO"/>
+<img src="https://img.shields.io/badge/BullMQ-E11D48?style=for-the-badge" alt="BullMQ"/>
+<img src="https://img.shields.io/badge/Leaflet-16A34A?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet"/>
+</td>
+</tr>
+</table>
 
 </div>
+
+---
+
+<!-- ══════════════ FEATURED PROJECTS ══════════════ -->
+<div align="center">
+
+## 🗺️ FEATURED QUESTS
+
+<sub>Real features. Real workflows. Built to solve real problems.</sub>
+
+</div>
+
+<br/>
+
+<!-- ─────────── PROJECT 1: ذاكر صح ─────────── -->
+<table>
+<tr>
+<td width="18%" align="center" valign="middle">
+
+<h1>📚</h1>
+<sub><strong>QUEST 01</strong></sub>
+
+</td>
+<td width="82%" valign="top">
+
+### ذاكر صح · EdTech SaaS Platform
 
 A learning platform connecting **students, tutors, and learning centers** in one system.
 
-**✨ Key Features**
+- 🔐 Authentication and role management
+- ⚙️ REST APIs and business logic
+- 🗄️ PostgreSQL and Redis integration
+- 🌍 Arabic right-to-left support
 
-- Authentication and role management
-- REST APIs and business logic
-- PostgreSQL and Redis integration
-- Arabic right-to-left support
+<img src="https://skillicons.dev/icons?i=nextjs,express,postgres,redis&theme=dark&perline=4" alt="Next.js, Express.js, PostgreSQL, Redis"/>
 
-<br/>
-
-<div align="center">
+<br/><br/>
 
 <a href="https://center-saas-front-83p8.vercel.app/">
-  <img src="https://img.shields.io/badge/%E2%96%B6%20OPEN%20LIVE%20DEMO-22C55E?style=for-the-badge&labelColor=111827" alt="Open Zaker Sah"/>
+  <img src="https://img.shields.io/badge/%E2%96%B6-VIEW%20LIVE%20DEMO-2563EB?style=for-the-badge&labelColor=111827" alt="View live demo of Zaker Sah"/>
 </a>
-
-</div>
-
-</td>
-<td width="50%" valign="top">
-
-<div align="center">
-
-### 🍔 أكلي
-
-**FOOD DELIVERY SYSTEM**
-
-<img src="https://img.shields.io/badge/NEXT.JS-000000?style=flat-square&logo=next.js" alt="Next.js"/>
-<img src="https://img.shields.io/badge/EXPRESS-111827?style=flat-square&logo=express" alt="Express.js"/>
-<img src="https://img.shields.io/badge/MYSQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
-<img src="https://img.shields.io/badge/SOCKET.IO-111827?style=flat-square&logo=socketdotio" alt="Socket.IO"/>
-
-</div>
-
-A complete food-delivery workflow connecting customers, restaurants, orders, and location data.
-
-**✨ Key Features**
-
-- JWT authentication and HTTP-only cookies
-- 30+ REST APIs
-- Real-time updates with Socket.IO
-- Geospatial queries and location features
-
-<br/>
-
-<div align="center">
-
-<a href="https://food-front-rho.vercel.app/">
-  <img src="https://img.shields.io/badge/%E2%96%B6%20OPEN%20LIVE%20DEMO-22C55E?style=for-the-badge&labelColor=111827" alt="Open Akly"/>
-</a>
-
-</div>
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-<div align="center">
-
-### 💰 WealthWise AI
-
-**AI-POWERED FINTECH WALLET**
-
-<a href="https://wallet-wep-react.vercel.app/">
-  <img src="https://img.shields.io/badge/%F0%9F%9A%80%20EXPLORE%20WEALTHWISE%20AI-7C3AED?style=for-the-badge&labelColor=111827" alt="Open WealthWise AI"/>
-</a>
-
-</div>
-
-A smart financial application that helps users interact with their financial data using natural language and AI.
-
-<br/>
-
-<table>
-<tr>
-<td width="55%" valign="middle">
-
-**✨ Key Features**
-
-- Natural-language expense input
-- AI-powered data extraction
-- Structured financial records
-- Wallet data management
-
-</td>
-<td width="45%" valign="middle">
-
-```text
-"300 جنيه فراخ
- و150 جنيه عصير"
-        |
-        v
-     🤖 AI
-        |
-        v
- STRUCTURED DATA
-        |
-        v
-    💰 WALLET
-```
 
 </td>
 </tr>
 </table>
 
-<div align="center">
+<!-- ─────────── PROJECT 2: أكلي ─────────── -->
+<table>
+<tr>
+<td width="18%" align="center" valign="middle">
 
-`Next.js` · `Express.js` · `PostgreSQL` · `Redis` · `Google Gemini`
+<h1>🍔</h1>
+<sub><strong>QUEST 02</strong></sub>
 
-</div>
+</td>
+<td width="82%" valign="top">
+
+### أكلي · Food Delivery System
+
+A complete food-delivery workflow connecting **customers, restaurants, orders, and location data**.
+
+- 🔐 JWT authentication with HTTP-only cookies
+- 🔌 30+ REST APIs
+- ⚡ Real-time updates with Socket.IO
+- 📍 Geospatial queries and location features
+
+<img src="https://skillicons.dev/icons?i=nextjs,express,mysql&theme=dark&perline=3" alt="Next.js, Express.js, MySQL"/>
+<img src="https://img.shields.io/badge/Socket.IO-17123B?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO"/>
+
+<br/><br/>
+
+<a href="https://food-front-rho.vercel.app/">
+  <img src="https://img.shields.io/badge/%E2%96%B6-VIEW%20LIVE%20DEMO-F59E0B?style=for-the-badge&labelColor=111827" alt="View live demo of Akly"/>
+</a>
+
+</td>
+</tr>
+</table>
+
+<!-- ─────────── PROJECT 3: WealthWise AI ─────────── -->
+<table>
+<tr>
+<td width="18%" align="center" valign="middle">
+
+<h1>💰</h1>
+<sub><strong>QUEST 03</strong></sub>
+
+</td>
+<td width="82%" valign="top">
+
+### WealthWise AI · AI-Powered Fintech Wallet
+
+A smart financial application that helps users interact with their financial data using **natural language and AI**.
+
+- 💬 Natural-language expense input
+- 🤖 AI-powered data extraction
+- 🧾 Structured financial records
+- 👛 Wallet data management
+
+```text
+"300 جنيه فراخ و150 جنيه عصير"
+              │
+              ▼
+           🤖 AI
+              │
+              ▼
+      STRUCTURED DATA
+              │
+              ▼
+          💰 WALLET
+```
+
+<img src="https://skillicons.dev/icons?i=nextjs,express,postgres,redis&theme=dark&perline=4" alt="Next.js, Express.js, PostgreSQL, Redis"/>
+<img src="https://img.shields.io/badge/Google%20Gemini-8B5CF6?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini"/>
+
+<br/><br/>
+
+<a href="https://wallet-wep-react.vercel.app/">
+  <img src="https://img.shields.io/badge/%E2%96%B6-VIEW%20LIVE%20DEMO-7C3AED?style=for-the-badge&labelColor=111827" alt="View live demo of WealthWise AI"/>
+</a>
 
 </td>
 </tr>
@@ -272,86 +263,44 @@ A smart financial application that helps users interact with their financial dat
 
 ---
 
-<!-- ═══════════════════════ ARCADE ═══════════════════════ -->
-
+<!-- ══════════════ DEVELOPER ARCADE ══════════════ -->
 <div align="center">
 
-## 🎮 THE DEVELOPER ARCADE
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=17&duration=1500&pause=500&color=22C55E&center=true&vCenter=true&width=700&lines=%5B+INSERT+COIN+%5D;%5B+PLAYER+1%3A+YOUSSEF+%5D;%5B+UNLOCKING+ACHIEVEMENTS...+%5D" alt="Arcade animation"/>
+## 🕹️ THE DEVELOPER ARCADE
 
 </div>
 
 <table>
 <tr>
-<td width="55%" align="center" valign="middle">
+<td width="58%" align="center" valign="middle">
 
 ### 🐍 Contribution Snake
 
-<img src="https://raw.githubusercontent.com/Youssefsea/Youssefsea/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake"/>
+<!-- Requires the snake GitHub Action (see setup notes). Falls back gracefully if missing. -->
+<img src="https://raw.githubusercontent.com/Youssefsea/Youssefsea/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake animation"/>
 
 </td>
-<td width="45%" align="center" valign="middle">
+<td width="42%" align="center" valign="middle">
 
 ### 🏆 Achievement Board
 
+<img src="https://img.shields.io/badge/%E2%9A%94%EF%B8%8F-API%20BUILDER-7C3AED?style=for-the-badge" alt="Achievement: API Builder"/>
 <br/>
-
-<img src="https://img.shields.io/badge/%E2%9A%94%EF%B8%8F-API%20BUILDER-7C3AED?style=for-the-badge" alt="API Builder"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/%F0%9F%97%84%EF%B8%8F-DATABASE%20EXPLORER-2563EB?style=for-the-badge" alt="Database Explorer"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/%F0%9F%A4%96-AI%20EXPLORER-8B5CF6?style=for-the-badge" alt="AI Explorer"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/%F0%9F%9A%80-SHIP%20IT-16A34A?style=for-the-badge" alt="Ship It"/>
+<img src="https://img.shields.io/badge/%F0%9F%97%84%EF%B8%8F-DATABASE%20EXPLORER-2563EB?style=for-the-badge" alt="Achievement: Database Explorer"/>
+<br/>
+<img src="https://img.shields.io/badge/%F0%9F%A4%96-AI%20EXPLORER-8B5CF6?style=for-the-badge" alt="Achievement: AI Explorer"/>
+<br/>
+<img src="https://img.shields.io/badge/%F0%9F%9A%80-SHIP%20IT-16A34A?style=for-the-badge" alt="Achievement: Ship It"/>
 
 </td>
 </tr>
 </table>
 
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=14&duration=1200&pause=400&color=F97316&center=true&vCenter=true&width=700&lines=%F0%9F%90%9B+BOSS+FIGHT%3A+PRODUCTION+BUG;%F0%9F%94%8D+SEARCHING+FOR+THE+BUG...;%E2%9A%99%EF%B8%8F+DEBUGGING;%E2%9C%85+BUG+DEFEATED%3A+XP+%2B100" alt="Debugging boss fight animation"/>
-
-</div>
-
----
-
-<!-- ═══════════════════════ GITHUB ANALYTICS ═══════════════════════ -->
-
-<div align="center">
-
-## 📊 GITHUB ANALYTICS
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=Youssefsea&show_icons=true&hide_border=true&border_radius=16&bg_color=0D1117&title_color=A78BFA&icon_color=38BDF8&text_color=C9D1D9" width="49%" alt="GitHub stats"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Youssefsea&layout=compact&hide_border=true&border_radius=16&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9&langs_count=8" width="49%" alt="Most used languages"/>
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Youssefsea&theme=dark&hide_border=true&background=0D1117&ring=8B5CF6&fire=F59E0B&currStreakLabel=A78BFA&sideLabels=38BDF8" width="75%" alt="GitHub contribution streak"/>
-
-</div>
-
----
-
-<!-- ═══════════════════════ CURRENT MISSION ═══════════════════════ -->
-
 <table>
 <tr>
 <td width="50%" valign="top">
 
-## 🎯 CURRENT MISSION
-
-**Quests I'm working on**
+### 🎯 Current Mission
 
 - Full Stack Development
 - Better System Design
@@ -363,7 +312,7 @@ A smart financial application that helps users interact with their financial dat
 </td>
 <td width="50%" valign="top">
 
-## 🧠 MY BUILD PROCESS
+### 🧠 Build Process (Quest Log)
 
 ```text
 01  Understand the problem
@@ -380,61 +329,35 @@ A smart financial application that helps users interact with their financial dat
 
 ---
 
-<!-- ═══════════════════════ DEVELOPER CONSOLE ═══════════════════════ -->
-
+<!-- ══════════════ GITHUB ANALYTICS ══════════════ -->
 <div align="center">
 
-## 🖥️ DEVELOPER CONSOLE
+## 📊 GITHUB ANALYTICS
 
-```text
-╔══════════════════════════════════════════════╗
-║               YOUSSEF.EXE                    ║
-╠══════════════════════════════════════════════╣
-║                                              ║
-║  FRONTEND       ● BUILDING                   ║
-║  BACKEND        ● BUILDING                   ║
-║  DATABASE       ● CONNECTED                  ║
-║  APIs           ● INTEGRATING                ║
-║  AI             ● EXPLORING                  ║
-║  DEPLOYMENT     ● LEARNING                   ║
-║                                              ║
-║  STATUS: READY FOR THE NEXT CHALLENGE        ║
-║                                              ║
-╚══════════════════════════════════════════════╝
-```
+<img src="https://github-readme-stats.vercel.app/api?username=Youssefsea&show_icons=true&hide_border=true&border_radius=16&bg_color=0D1117&title_color=A78BFA&icon_color=38BDF8&text_color=C9D1D9" width="49%" alt="GitHub stats for Youssefsea"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Youssefsea&layout=compact&hide_border=true&border_radius=16&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9&langs_count=8" width="49%" alt="Most used languages"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=14&duration=1500&pause=500&color=38BDF8&center=true&vCenter=true&width=700&lines=%3E+SYSTEM+READY;%3E+BUILDING+SOMETHING+COOL;%3E+WAITING+FOR+THE+NEXT+CHALLENGE...%F0%9F%9A%80" alt="Developer console animation"/>
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Youssefsea&theme=dark&hide_border=true&background=0D1117&ring=8B5CF6&fire=F59E0B&currStreakLabel=A78BFA&sideLabels=38BDF8" width="75%" alt="GitHub contribution streak"/>
 
 </div>
 
 ---
 
-<!-- ═══════════════════════ CONNECT ═══════════════════════ -->
-
+<!-- ══════════════ CONNECT / FOOTER ══════════════ -->
 <div align="center">
 
-## 🌐 LET'S CONNECT!
+## 🌐 LET'S CONNECT
 
-<p>Have an interesting idea or project? Let's connect and build something awesome.</p>
+<p>Have an interesting idea or project? Let's build something awesome together.</p>
+
+<!-- ══════════════ PRIMARY PORTFOLIO CTA (BOTTOM) ══════════════ -->
+<a href="https://portfolio-snowy-five-98.vercel.app/">
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80-VISIT%20MY%20PORTFOLIO-7C3AED?style=for-the-badge&labelColor=2563EB" height="56" alt="Visit my portfolio"/>
+</a>
 
 <br/>
-
-<!-- PORTFOLIO: THE MAIN CALL TO ACTION -->
-
-<a href="https://portfolio-snowy-five-98.vercel.app/">
-  <img src="https://img.shields.io/badge/%F0%9F%9A%80%20VISIT%20MY%20PORTFOLIO-EXPLORE%20MY%20PROJECTS-7C3AED?style=for-the-badge&labelColor=111827" height="48" alt="Visit my portfolio"/>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/Youssefsea">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-<a href="https://www.linkedin.com/in/youssef-yasser-97aa742b0">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-
-<br/><br/>
 
 <a href="https://portfolio-snowy-five-98.vercel.app/">
   <strong>🌐 portfolio-snowy-five-98.vercel.app ↗</strong>
@@ -442,11 +365,21 @@ A smart financial application that helps users interact with their financial dat
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=15&duration=1700&pause=500&color=A78BFA&center=true&vCenter=true&width=700&lines=THANKS+FOR+VISITING+%F0%9F%91%8B;KEEP+LEARNING.+KEEP+BUILDING.;SEE+YOU+IN+THE+NEXT+PROJECT!+%F0%9F%9A%80" alt="Thank you animation"/>
+<!-- Secondary actions -->
+<a href="https://github.com/Youssefsea">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile"/>
+</a>
+<a href="https://www.linkedin.com/in/youssef-yasser-97aa742b0">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile"/>
+</a>
+
+<br/><br/>
+
+<!-- Closing typing animation (2 of 2 on the page) -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=15&duration=1900&pause=600&color=A78BFA&center=true&vCenter=true&width=700&lines=THANKS+FOR+VISITING+%F0%9F%91%8B;KEEP+LEARNING.+KEEP+BUILDING.;SEE+YOU+IN+THE+NEXT+PROJECT!+%F0%9F%9A%80" alt="Closing message: thanks for visiting, keep learning, keep building"/>
 
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090F,25:17123B,55:4C1D95,80:7C3AED,100:38BDF8&height=130&section=footer" width="100%" alt="Footer banner"/>
 
 </div>
-
